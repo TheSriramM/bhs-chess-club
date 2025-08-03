@@ -1,0 +1,38 @@
+.brand-font {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 4em; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  -webkit-text-stroke: 1px rgb(0, 78, 66);
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/chess_hero_image.png");
+  background-size: cover;
+  background-position: initial;
+  background-repeat: no-repeat;
+
+  height: 40vh; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.hero-text {
+  color: blanchedalmond;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+}
