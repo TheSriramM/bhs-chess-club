@@ -1,13 +1,9 @@
-.brand-font {
-  font-family: "Public Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 h1 {
   text-align: center;
   margin: 0;
+  font-family: "Public sans", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 4em; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   -webkit-text-stroke: 1px rgb(0, 78, 66);
@@ -19,7 +15,7 @@ h1 {
   background-position: initial;
   background-repeat: no-repeat;
 
-  height: 40vh; 
+  height: 45vh; 
 
   display: flex;
   align-items: center;
@@ -31,8 +27,31 @@ h1 {
 }
 
 .hero-text {
-  color: blanchedalmond;
+  color: white;
+  font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif; 
   font-weight: bolder;
   text-align: center;
   width: 100%;
+}
+
+.about {
+  display: grid;
+  grid-template-areas:
+    "header content";
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  background-color: #003A2C;
+  padding: 5vh;
+  border: none;
+}
+
+.about > p {
+  font-size: 1.15em;
+  font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
+  color: white;
+}
+
+.about > img {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
