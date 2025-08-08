@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+  margin: 0;
+}
+
 h1 {
   text-align: center;
   margin: 0;
@@ -7,6 +11,10 @@ h1 {
   font-size: 4em; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   -webkit-text-stroke: 1px rgb(0, 78, 66);
+}
+
+.nav-bar{
+  background-color: #003A2C;
 }
 
 .hero-image {
@@ -40,18 +48,37 @@ h1 {
     "header content";
   grid-template-columns: 1fr 1fr;
   gap: 5px;
-  background-color: #003A2C;
+  background-color: white;
   padding: 5vh;
   border: none;
 }
 
 .about > p {
   font-size: 1.15em;
+  font-weight: 600;
   font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
-  color: white;
+  color: #003A2C;
 }
 
 .about > img {
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.info {
+  display: grid;
+  grid-template-areas:
+    "header content";
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  background-color: #003A2C;
+  padding: 5vh;
+  border: none;
+}
+
+.info > p{
+  font-size: 1.15em;
+  font-weight: 600;
+  font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
+  color: white;
 }
