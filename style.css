@@ -10,7 +10,6 @@ h1 {
   font-family: "Public sans", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 4em; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  -webkit-text-stroke: 1px rgb(0, 78, 66);
 }
 
 .nav-bar{
@@ -60,9 +59,10 @@ h1 {
   color: #003A2C;
 }
 
-.about > img {
-  background-repeat: no-repeat;
-  background-size: cover;
+.about-image {
+  width: 60%;
+  height: 90%;
+  align-self: center;
 }
 
 .info {
@@ -76,7 +76,7 @@ h1 {
   border: none;
 }
 
-.info > p{
+.info p{
   font-size: 1.15em;
   font-weight: 600;
   font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
