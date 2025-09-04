@@ -106,3 +106,31 @@ h1 {
   font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
   color: white;
 }
+
+.resources {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5% 1fr 1fr;
+  gap: 5px;
+  background-color: white;
+  padding: 5vh;
+  border: none;   
+}
+
+.resources p {
+  font-size: 1.15em;
+  font-weight: 600;
+  font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
+  color: #003A2C;
+}
+
+#chessStudyGuide {
+  width: 33%;
+  height: 75%;
+  margin-bottom: 5%;
+}
+
+#lichessPractice {
+  width: 33%;
+  margin-bottom: 5%;
+}
