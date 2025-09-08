@@ -110,11 +110,10 @@ h1 {
 .resources {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 5% 1fr 1fr;
+  grid-template-rows: 5% 1.25fr 1fr;
   gap: 5px;
   background-color: white;
   padding: 5vh;
-  border: none;   
 }
 
 .resources p {
@@ -127,10 +126,47 @@ h1 {
 #chessStudyGuide {
   width: 33%;
   height: 75%;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 
 #lichessPractice {
   width: 33%;
-  margin-bottom: 5%;
+  height: 80%;
+  margin-bottom: 0;
+}
+
+.photo-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+}
+
+.chess {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  background-color: #00AB8E;
+  padding: 5vh;
+  border: none;
+}
+
+.chess p {
+  font-size: 1.15em;
+  font-weight: 600;
+  font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
+  color: white;
+}
+
+footer {
+  background-color: #003A2C;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+#contact {
+  margin: 0;
 }
