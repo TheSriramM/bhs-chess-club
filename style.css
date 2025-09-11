@@ -16,6 +16,25 @@ h1 {
   background-color: #003A2C;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/chess_hero_image.png");
   background-size: cover;
@@ -143,7 +162,8 @@ h1 {
 
 .chess {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10% 90%;
   gap: 5px;
   background-color: #00AB8E;
   padding: 5vh;
@@ -155,6 +175,13 @@ h1 {
   font-weight: 600;
   font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
   color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30%;
+}
+
+.chess b em {
+  margin-left: 25%;
 }
 
 footer {
