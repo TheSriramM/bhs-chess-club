@@ -12,27 +12,41 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.nav-bar{
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #003A2C;
+  padding: 8px 16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-bar img {
+  height: 45px;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
   display: flex;
+  gap: 6px; 
 }
 
 ul li a {
   display: block;
   color: white;
-  padding: 14px 16px;
+  padding: 8px 10px;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
 }
 
 .hero-image {
@@ -41,7 +55,7 @@ ul li a:hover {
   background-position: initial;
   background-repeat: no-repeat;
 
-  height: 45vh; 
+  height: 60vh; 
 
   display: flex;
   align-items: center;
@@ -58,10 +72,6 @@ ul li a:hover {
   font-weight: bolder;
   text-align: center;
   width: 100%;
-}
-
-.subheading {
-  
 }
 
 .about {
