@@ -38,6 +38,7 @@ ul {
 ul li a {
   display: block;
   color: white;
+  font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif; 
   padding: 8px 10px;
   text-decoration: none;
   font-weight: 600;
@@ -102,7 +103,7 @@ ul li a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5px;
-  background-color: #003A2C;
+  background-color: #004E42;
   padding: 5vh;
   border: none;
 }
@@ -134,6 +135,10 @@ ul li a:hover {
   font-weight: 600;
   font-family: "Public Sans", 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
   color: white;
+}
+
+.achievements img {
+  margin-left: 30%;
 }
 
 .resources {
